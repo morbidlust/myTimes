@@ -1,32 +1,42 @@
-/*
-* {
-  border: 1px solid red;
+body {
+  margin: 0;
 }
-*/
 
 #header {
   display: flex;
   font-family: Verdana;
   font-size: 14px;
   font-weight: bold;
-  border-bottom: 1px solid black;
   align-items: center;
+  padding: 10px 0px;
+  border-bottom: 1px solid black;
+  width: 100%;
+  z-index: 10;
+  position: fixed;
 }
 
 #logo {
   display: flex;
   color: MediumAquamarine;
+  align-items: center;
+  flex-grow: 1;
 }
 
 #logo img {
   height: 60px;
   width: 70px;
-  margin-right: 12px;
+  padding-right: 12px;
+  padding-left: 30px;
+}
+
+nav {
+  display: inline-block;
+  justify-content: center;
+  padding-right: 10px;
 }
 
 nav span {
-  display: inline-block;
-  align-items: center;
+  padding-right: 20px;
 }
 
 nav a {

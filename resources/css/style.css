@@ -1,3 +1,7 @@
+* {
+  border: 1px solid blue;
+}
+
 body {
   margin: 0;
 }
@@ -41,4 +45,26 @@ nav span {
 
 nav a {
   color: black;
+}
+
+#main {
+  display: flex;
+  padding: 100px 20px 0px 20px;
+}
+
+.large, .medium, .small {
+  flex-direction: column;
+  padding-right: 30px;
+}
+
+.large {
+  width: 630px;
+}
+
+.medium {
+  width: 300px;
+}
+
+.small {
+  width: 240px;
 }

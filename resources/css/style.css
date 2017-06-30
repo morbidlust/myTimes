@@ -1,6 +1,9 @@
+/*
 * {
   border: 1px solid blue;
 }
+*/
+
 
 body {
   margin: 0;
@@ -48,9 +51,10 @@ nav a {
   color: black;
 }
 
-#main {
+.stories {
   display: flex;
   padding: 100px 20px 0px 20px;
+  justify-content: center;
 }
 
 .large, .medium, .small {
@@ -68,4 +72,54 @@ nav a {
 
 .small {
   width: 240px;
+}
+
+.image {
+  display: flex;
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+  height: 300px;
+  text-align: center;
+}
+
+.lead.image {
+  background-image: url("../images/img-story-main.png");
+  font-size: 40px;
+  width: 630px;
+}
+
+.earth.image {
+  background-image: url("../images/img-story-2.png");
+}
+
+.camera.image {
+  background-image: url("../images/img-story-3.png");
+}
+
+.cats.image {
+  background-image: url("../images/img-story-1.png");
+}
+
+.article {
+  font-family: Georgia;
+  font-size: 17px;
+  color: black;
+}
+
+.flow {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 17px;
+}
+
+.articles {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+}
+
+.flow .article {
+  height: 250px;
 }
